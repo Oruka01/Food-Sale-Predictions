@@ -38,9 +38,13 @@ To create a linear regression model, we first collect data on the dependent vari
 The R2 evaluation metric, also known as the coefficient of determination, is a measure of how well the linear regression model fits the data. It represents the proportion of variance in the dependent variable that can be explained by the independent variables. A higher R2 value indicates a better fit between the model and the data.
 In this case an R2 value of 0.470 means that 47% of the variation in the dependent variable can be explained by the independent variables. This indicates a somewhat strong relationship between the variables and suggests that the model is relatively a good fit for the data.
 
-Limitations
+Limitations;
+
+
 Linear models rely on certain assumptions, such as linearity, independence, homoscedasticity, and normality of residuals. These assumptions may not hold in all cases, which can limit the applicability of the model.
 in this case the model was Underfitting both the training and test data, underfitting brings a high bias, leading to poor performance.
 
-For further information
+For further information;
+
+
 For any additional questions, please contact email oruka.rapha01@gmail.com
