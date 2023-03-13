@@ -22,7 +22,6 @@ Our model was able to accurately predict food sales with an accuracy of 69.49%. 
 
 
 ![image](https://user-images.githubusercontent.com/124377057/224627744-80e0aba3-bb2b-4339-8b6e-7787d27a7d62.png)
-There are more sales received from the sale of regular items compared to the low fat items much as they are closure
-
+There are more sales received from the sale of regular items compared to the low fat items.
 ![image](https://user-images.githubusercontent.com/124377057/224628598-7b5389c8-4148-4b38-8c25-f132123cbd04.png)
 Performance of each outlet type of the restaurant
