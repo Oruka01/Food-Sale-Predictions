@@ -29,7 +29,9 @@ There are more sales received from the sale of regular items compared to the low
 Performance of each outlet type of the restaurant
 
 
-**Model**
+The Model;
+
+
 The linear regression model is a statistical method used to model the relationship between a dependent variable and one or more independent variables. Its purpose is to predict the value of the dependent variable based on the values of the independent variables.
 To create a linear regression model, we first collect data on the dependent variable and one or more independent variables. We then fit a line to the data using a method called least squares regression. This line represents the relationship between the dependent variable and the independent variables, and can be used to make predictions about the dependent variable.
 
