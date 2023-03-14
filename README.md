@@ -18,7 +18,7 @@ Linear regression, to model the relationship between sales and various factors s
 **Results**
 
 
-Our model was able to accurately predict food sales with an accuracy of 47.1%. We also identified several key factors that influence sales, such as the Item_Fat_Content and the Outlet_Location_Type and Outlet_Type
+Our model was able to  predict food sales with an R2 of 47.1%. We also identified several key factors that influence sales, such as the Item_Fat_Content and the Outlet_Location_Type and Outlet_Type
 
 
 ![image](https://user-images.githubusercontent.com/124377057/224627744-80e0aba3-bb2b-4339-8b6e-7787d27a7d62.png)
@@ -26,11 +26,6 @@ There are more sales received from the sale of regular items compared to the low
 
 
 ![image](https://user-images.githubusercontent.com/124377057/224871195-087a6412-527f-41fc-ada4-a78498fa1391.png)
-
-
-
-![image](https://user-images.githubusercontent.com/124377057/224628598-7b5389c8-4148-4b38-8c25-f132123cbd04.png)
-Performance of each outlet type of the restaurant
 
 
 The Model;
