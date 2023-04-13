@@ -21,7 +21,8 @@ decision tree classifier, KNeighbors Classifier, Bagging Classifier and Random F
 - The F1 score ranges from 0 to 1, where a score of 1 represents perfect precision and recall, and a score of 0 represents the worst possible performance. Therefore, our model performed reasonably well for both classes, with a higher score for the positive class.
 
 Therefore the model would be useful in production, this is an algorithm that is used for  classification tasks. 
-it can be used as:-
+
+The model can be used in the following ways:-
 
 Prepare the data: The first step is to prepare the data by cleaning and transforming it into a format that can be used by the model. This may involve removing missing values, scaling the data, and encoding categorical variables.
 
