@@ -12,6 +12,7 @@ This project aims to predict whether a person will accept the coupon recommended
 The project uses the Classification models to predict whether or not a driver will accept a coupon recommended to them. Specifically, we used the following techniques:
 
 decision tree classifier, KNeighbors Classifier, Bagging Classifier and Random Forest Classifier, to create models that predict the coupon recommendations.
+However from the multiple models created, the Random Forest Classifier produced the highest F1 score meaning this model performed better than the rest of the models, and therefore logical to adopt this model for production
 
 **Results**
 
