@@ -8,22 +8,26 @@ Data Source
 
 Methodology
 
-The project uses of Linear regression analysis models to predict whether or not a driver will accept a coupon recommended to them. Specifically, we used the following techniques:
+The project uses the Classification models to predict whether or not a driver will accept a coupon recommended to them. Specifically, we used the following techniques:
 
-decision trees, bagged trees and Random forest models, to create models that predict the coupon recommendations.
+decision tree classifier, KNeighbors Classifier, Bagging Classifier and Random Forest Classifier, to create models that predict the coupon recommendations.
 
-Results
+**Results**
 
-Our model was able to predict wether or not a driver will accept a coupon with a Root Mean Absolute Error of 57%.
+- The F1 score is a metric that measures the balance between precision and recall for a binary classification problem such as the one we are dealing with, It is often used as a performance metric for machine learning models.
 
-Therefore my model would be useful in production, this is an algorithm that is used for both regression and classification tasks. The model works by breaking down a dataset into smaller subsets based on the features of the data, ultimately creating a tree-like structure of decisions that leads to a prediction.
+- For our binary classification problem, we achieved an F1 score of 0.72 for the negative class and an F1 score of 0.80 for the positive class.
+
+- The F1 score ranges from 0 to 1, where a score of 1 represents perfect precision and recall, and a score of 0 represents the worst possible performance. Therefore, our model performed reasonably well for both classes, with a higher score for the positive class.
+
+Therefore the model would be useful in production, this is an algorithm that is used for  classification tasks. 
 it can be used as:-
 
 Prepare the data: The first step is to prepare the data by cleaning and transforming it into a format that can be used by the model. This may involve removing missing values, scaling the data, and encoding categorical variables.
 
-Split the data: Next, split the data into training and testing sets. The training set will be used to train the decision tree model, while the testing set will be used to evaluate the performance of the model.
+Split the data: Next, split the data into training and testing sets. The training set will be used to train the classification model, while the testing set will be used to evaluate the performance of the model.
 
-Train the model: Train the decision tree model on the training set. The model will recursively split the data based on the features that are most informative, creating a tree-like structure of decisions.
+Train the model: Train the classifier models on the training set. 
 
 Evaluate the model: Use the testing set to evaluate the performance of the model. This can be done by calculating various metrics such as accuracy, precision, recall, and F1 score.
 
@@ -38,16 +42,19 @@ Make predictions: Once you are satisfied with the performance of the model, you 
 
 The Model;
 
-The linear regression model is a statistical method used to model the relationship between a dependent variable and one or more independent variables. Its purpose is to predict the value of the dependent variable based on the values of the independent variables. To create a linear regression model, we first collect data on the dependent variable and one or more independent variables. We then fit a line to the data using a method called least squares regression. This line represents the relationship between the dependent variable and the independent variables, and can be used to make predictions about the dependent variable.
+Random Forest Classifier is a popular machine learning algorithm used for classification tasks. It is an ensemble learning method that combines multiple decision trees to make predictions.
 
-Root Mean Squared Error (RMSE) is a commonly used evaluation metric in machine learning to measure the accuracy of a regression model. RMSE measures the difference between the predicted values of a model and the actual values of the target variable.
+Each decision tree in a Random Forest is trained on a random subset of the training data and a random subset of the input features. This helps to reduce overfitting and increase the diversity of the individual trees. The final prediction is made by combining the predictions of all the trees in the forest.
 
-To calculate RMSE, the difference between the predicted values and the actual values is first squared, and then the mean of these squared differences is taken. Finally, the square root of this mean value is computed to obtain the RMSE.
+The algorithm is suitable for both binary and multiclass classification problems and can handle both categorical and numerical data. It is also capable of handling missing values and can be used for feature selection.
 
-Limitations;
+Overall, Random Forest Classifier is a powerful and versatile algorithm that is widely used in machine learning for its high accuracy and robustness.
 
-Linear models rely on certain assumptions, such as linearity, independence, homoscedasticity, and normality of residuals. These assumptions may not hold in all cases, which can limit the applicability of the model. in this case the model was Underfitting both the training and test data, underfitting brings a high bias, leading to poor performance.
+**Limitations;**
 
+- Interpretability: Random Forest Classifier is not as interpretable as some other algorithms like decision trees. It can be difficult to understand which features are important for making predictions.
+
+- Memory and Computation: Random Forest Classifier can require a lot of memory and computation, especially when the number of trees in the forest is high or the data has a large number of features.
 
 For further information;
 
